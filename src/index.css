@@ -1,9 +1,42 @@
 @import "tailwindcss";
 
-body{
-  background-color: #06202B;
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #4FC3F7 #06202B;
 }
 
-body{
+html::-webkit-scrollbar {
+  width: 8px;
+}
+
+html::-webkit-scrollbar-track {
+  background: #06202B;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #4FC3F7;
+  border-radius: 4px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: #81D4FA;
+}
+
+body {
+  background-color: #06202B;
   font-family: 'Space Grotesk';
+  overflow-x: hidden;
+}
+
+/* Ensure touch targets are at least 44x44 pixels */
+button, a, input, [role="button"] {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* Better text selection */
+::selection {
+  background-color: #4FC3F7;
+  color: #06202B;
 }

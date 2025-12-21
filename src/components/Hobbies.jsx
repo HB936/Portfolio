@@ -80,7 +80,7 @@ const hobbiesData = [
 
 export default function Hobbies() {
   return (
-    <section id="hobbies" className="w-full py-20 px-4 sm:px-6 text-white" style={{ fontFamily: 'Space Grotesk' }}>
+    <section id="hobbies" className="w-full py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 text-white" style={{ fontFamily: 'Space Grotesk' }}>
       <div className="max-w-6xl mx-auto">
         {/* Header Section */}
         <motion.div
@@ -88,23 +88,23 @@ export default function Hobbies() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="mb-16 text-center sm:text-left"
+          className="mb-12 sm:mb-14 lg:mb-16 text-center sm:text-left"
         >
           <div className="inline-block">
-            <h2 className="text-5xl sm:text-6xl font-bold bg-gradient-to-r from-[#4FC3F7] to-[#81D4FA] bg-clip-text text-transparent drop-shadow-[0_0_20px_#4FC3F7]/20">
+            <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold bg-gradient-to-r from-[#4FC3F7] to-[#81D4FA] bg-clip-text text-transparent drop-shadow-[0_0_20px_#4FC3F7]/20">
               My Hobbies
             </h2>
-            <div className="h-1.5 w-20 bg-gradient-to-r from-[#4FC3F7] to-transparent mt-4"></div>
+            <div className="h-1.5 w-16 sm:w-20 bg-gradient-to-r from-[#4FC3F7] to-transparent mt-3 sm:mt-4"></div>
           </div>
-          <p className="text-[#B0BEC5] mt-4 text-lg max-w-2xl">
-            Interests and passions that keep me energized outside of work.
+          <p className="text-[#B0BEC5] mt-3 sm:mt-4 text-sm sm:text-base lg:text-xl max-w-2xl">
+            Interests and passions that keep me energized.
           </p>
         </motion.div>
 
         {/* Hobbies Grid - 3 top, 2 bottom */}
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-4 sm:gap-5 lg:gap-6">
           {/* Top row - 3 cards */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 lg:gap-6">
             {hobbiesData.slice(0, 3).map((hobby, i) => (
               <HobbyCard key={hobby.key} hobby={hobby.name} icon={hobbyIcons[hobby.key]} desc={hobby.desc} index={i} />
             ))}
@@ -112,7 +112,7 @@ export default function Hobbies() {
           
           {/* Bottom row - 2 cards centered */}
           <div className="flex justify-center">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full md:w-2/3 lg:w-1/2">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5 lg:gap-6 w-full sm:w-2/3 lg:w-1/2">
               {hobbiesData.slice(3, 5).map((hobby, i) => (
                 <HobbyCard key={hobby.key} hobby={hobby.name} icon={hobbyIcons[hobby.key]} desc={hobby.desc} index={i + 3} />
               ))}

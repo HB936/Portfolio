@@ -107,7 +107,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="w-full py-20 px-4 sm:px-6 text-white" style={{ fontFamily: 'Space Grotesk' }}>
+    <section id="projects" className="w-full py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 text-white" style={{ fontFamily: 'Space Grotesk' }}>
       <div className="max-w-6xl mx-auto">
         {/* Header Section */}
         <motion.div
@@ -115,21 +115,21 @@ export default function Projects() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="mb-16 text-center sm:text-left"
+          className="mb-12 sm:mb-14 lg:mb-16 text-center sm:text-left"
         >
           <div className="inline-block">
-            <h2 className="text-5xl sm:text-6xl font-bold bg-gradient-to-r from-[#4FC3F7] to-[#81D4FA] bg-clip-text text-transparent drop-shadow-[0_0_20px_#4FC3F7]/20">
+            <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold bg-gradient-to-r from-[#4FC3F7] to-[#81D4FA] bg-clip-text text-transparent drop-shadow-[0_0_20px_#4FC3F7]/20">
               Projects
             </h2>
-            <div className="h-1 w-20 bg-gradient-to-r from-[#4FC3F7] to-transparent mt-4"></div>
+            <div className="h-1 w-16 sm:w-20 bg-gradient-to-r from-[#4FC3F7] to-transparent mt-3 sm:mt-4"></div>
           </div>
-          <p className="text-[#B0BEC5] mt-4 text-lg max-w-2xl">
-            A selection of recent work showcasing expertise across frontend, backend, and full-stack development. Links available where applicable.
+          <p className="text-[#B0BEC5] mt-3 sm:mt-4 text-sm sm:text-base lg:text-xl max-w-2xl">
+            A selection of recent work showcasing expertise across frontend, backend, and full-stack development.
           </p>
         </motion.div>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 lg:gap-6">
           {projects.map((p, i) => (
             <ProjectCard key={p.title} project={p} index={i} />
           ))}
