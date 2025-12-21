@@ -64,6 +64,7 @@ const projects = [
   {
     title: "Shopify E-Commerce Store",
     desc: "Health snack brand store — designed UI/UX and implemented full storefront (pre-launch, NDA). Demo available upon request.",
+    link: "https://ibb.co/album/gjR8L1",
     tech: "Shopify · UI/UX · Design",
   },
   {
@@ -86,16 +87,19 @@ const projects = [
   {
     title: "WordPress & WooCommerce Development",
     desc: "Custom shop page, AJAX-based add-to-cart with state management, wishlist integration, and Tailwind-styled cart functionality.",
+    link: "https://ibb.co/album/dWFxrQ",
     tech: "WordPress · WooCommerce · AJAX · Tailwind",
   },
   {
     title: "Crypto Price Tracker",
     desc: "Real-time price tracking with simulated WebSocket updates, gainers/losers filters, unit tests, and localStorage state management via Redux.",
+    link: "https://crypto-price-tracker-topaz.vercel.app",
     tech: "React · Redux Toolkit · TypeScript · Testing",
   },
   {
     title: "Quiz Maker & Player",
     desc: "Interactive web app for creating and playing custom quizzes with real-time scoring and user-friendly interface.",
+    link: "https://ibb.co/album/Rkd7ZT",
     tech: "React · Tailwind · State Management",
   },
   {
