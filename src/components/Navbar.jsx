@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 export default function Navbar() {
-  const navItems = ["About", "Projects", "Skills", "Resume", "Hobbies"];
+  const navItems = ["About", "Experience", "Skills", "Resume", "Hobbies"];
 
   const [scrollAmount, setScrollAmount] = useState(0);
   const [isScrollingUp, setIsScrollingUp] = useState(false);

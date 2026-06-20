@@ -5,7 +5,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import FloatingGeometricShapes from './components/FloatingGeometricShapes'
-import Projects from './components/Projects'
+import Experience from './components/Experience'
 import Skills from './components/Skills'
 import Resume from './components/Resume'
 import Hobbies from './components/Hobbies'
@@ -18,7 +18,7 @@ function App() {
       <FloatingGeometricShapes/>    
       <Navbar/>
       <Hero/>
-      <Projects/>
+      <Experience/>
       <Skills />
       <Resume />
       <Hobbies />
