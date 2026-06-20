@@ -15,6 +15,10 @@ const workExperience = [
       'Created APIs to sync user registrations with Google Sheets and store customer data in Shopify databases securely.',
     ],
     tech: ['React.js', 'Three.js', 'Node.js', 'Python', 'Shopify', 'Resend API', 'Google Sheets API'],
+    links: [
+      { label: 'Live', href: 'https://www.healthmonk.in', note: 'Temporary' },
+      { label: 'Demo', href: 'https://health-monk-waitlist-design.vercel.app/', note: 'Registration disabled' },
+    ],
   },
   {
     role: 'Web Developer',
@@ -115,6 +119,7 @@ function WorkCard({ job, index }) {
             </h3>
             <div className="flex items-center gap-2 mt-0.5 flex-wrap">
               <span className="text-[#4FC3F7] font-semibold text-sm">{job.company}</span>
+              {/* Single link */}
               {job.link && (
                 <a
                   href={job.link}
@@ -128,6 +133,23 @@ function WorkCard({ job, index }) {
                   </svg>
                 </a>
               )}
+              {/* Multiple labelled links */}
+              {job.links && job.links.map((l) => (
+                <a
+                  key={l.href}
+                  href={l.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title={l.note}
+                  className="flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-semibold bg-[#4FC3F7]/10 text-[#4FC3F7] hover:bg-[#4FC3F7]/25 transition-all border border-[#4FC3F7]/20"
+                >
+                  <svg className="w-2.5 h-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                  {l.label}
+                  {l.note && <span className="text-[#B0BEC5] font-normal">· {l.note}</span>}
+                </a>
+              ))}
             </div>
           </div>
           <span className="text-xs text-[#B0BEC5] bg-[#4FC3F7]/8 border border-[#4FC3F7]/20 px-2.5 py-1 rounded-full whitespace-nowrap">
