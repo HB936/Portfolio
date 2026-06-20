@@ -3,7 +3,7 @@
 html {
   scroll-behavior: smooth;
   scrollbar-width: thin;
-  scrollbar-color: #4FC3F7 #06202B;
+  scrollbar-color: #4FC3F7 #000000;
 }
 
 html::-webkit-scrollbar {
@@ -11,7 +11,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-  background: #06202B;
+  background: #000000;
 }
 
 html::-webkit-scrollbar-thumb {
@@ -24,7 +24,7 @@ html::-webkit-scrollbar-thumb:hover {
 }
 
 body {
-  background-color: #06202B;
+  background-color: #000000;
   font-family: 'Space Grotesk';
   overflow-x: hidden;
 }
@@ -38,5 +38,5 @@ button, a, input, [role="button"] {
 /* Better text selection */
 ::selection {
   background-color: #4FC3F7;
-  color: #06202B;
+  color: #000000;
 }

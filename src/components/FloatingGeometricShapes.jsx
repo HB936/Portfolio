@@ -23,7 +23,7 @@ export default function FloatingGeometricShapes() {
                 <motion.div
                     key={shape.id}
                     // Common style applied to all shapes
-                    className={`absolute opacity-20 ${
+                    className={`absolute opacity-15 ${
                         shape.shape === 'circle' ? 'rounded-full' : ''
                     }`}
                     style={{
