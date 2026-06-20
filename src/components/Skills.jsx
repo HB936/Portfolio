@@ -64,11 +64,11 @@ const skillsData = [
   },
   {
     category: "Tools",
-    skills: "Git, WordPress, WooCommerce, Shopify, REST APIs, Sheets API, Resend API, LM Studio, Claude Code, Antigravity"
+    skills: "Git, WordPress, WooCommerce, Shopify, REST APIs, Sheets API, Resend API, LM Studio, Claude Code, Antigravity, Canva, Photoshop, Premiere Pro"
   },
   {
     category: "Core Concepts",
-    skills: "Data Structures & Algorithms, DBMS, OOP, Software Engineering, Machine Learning, Data Analytics, NLP, Statistical Analysis, Data Visualization, Supervised/Unsupervised Learning, LLM Integration"
+    skills: "Data Structures & Algorithms, DBMS, OOP, Software Engineering, Machine Learning, Data Analytics, NLP, Statistical Analysis, Data Visualization, Supervised/Unsupervised Learning, LLM Integration, Video & Photo Editing"
   }
 ]
 
