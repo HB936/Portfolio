@@ -11,11 +11,12 @@ export default function Hero() {
             <h1 className='text-3xl sm:text-4xl lg:text-6xl font-bold drop-shadow-[0_0_10px_#4FC3F7] text-center'>Hardik Biyani</h1>
             <TypeAnimation
                 sequence={[
-                    'Wordpress Developer', 500,
-                    'React Developer', 500,
-                    'UI Enthusiast', 500,
-                    'Full Stack Coder', 500,
+                    'Full Stack Developer', 500,
+                    'React & Node.js Developer', 500,
                     'Shopify Developer', 500,
+                    'WordPress Developer', 500,
+                    'AI/ML Enthusiast', 500,
+                    'UI/UX Enthusiast', 500,
                 ]}
                 speed={50}
                 repeat={Infinity}
@@ -33,11 +34,11 @@ export default function Hero() {
                         viewport={{ once: false, amount: 0.5 }}
                         className='text-xs sm:text-sm lg:text-lg p-2 sm:p-4 lg:p-8 leading-relaxed'
 
-                    >I'm a passionate HTML & React developer specializing in responsive UI design and frontend development. Experienced with ReactJS, Tailwind CSS, and JavaScript, having worked on real-world projects including interface replications for Myntra, RedBus, and IIP Academy through professional training.
+                    >I'm a full-stack developer with hands-on experience building production-ready web applications across React.js, Node.js, Python, Shopify, and WordPress ecosystems. I've worked professionally as a Full Stack Developer at HealthMonk — building an animated waitlist platform with Three.js, integrating backend APIs with Resend and Google Sheets, and customising Shopify storefronts — and as a Web Developer for IFSA, where I built their official event website from scratch.
 
-                        Built interactive applications including a quiz creator/player platform with state management and a habit tracking analytics app. Proficient with component libraries (Storybook), modern build tools, and responsive design principles.
+                        Beyond web development, I work on AI-driven projects including a Telegram Narrative Analyzer (semantic clustering, LLM integration) and a Digital Footprint Finder (OSINT, MERN stack). I'm comfortable across the stack — from crafting pixel-perfect UIs to designing REST APIs and Python microservices.
 
-                        Currently focused on building responsive UI components and experimenting with ThreeJS for 3D interactivity.
+                        Skilled in TypeScript, Redux Toolkit, Three.js, and modern tooling, with a creative side in video and photo editing (Premiere Pro, Photoshop, Canva). Always building something interesting.
                     </motion.p>
                 </AnimatePresence>
             </div>
