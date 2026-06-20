@@ -7,7 +7,7 @@ const workExperience = [
   {
     role: 'Full Stack Developer',
     company: 'Health Monk',
-    period: 'Aug '25 – May '26',
+    period: "Aug '25 – May '26",
     bullets: [
       'Designed and customized a Shopify e-commerce website, built interactive frontend sections using reusable JavaScript blocks.',
       'Built an animated waiting list landing page using React.js and Three.js for immersive user onboarding experiences.',
@@ -19,7 +19,7 @@ const workExperience = [
   {
     role: 'Web Developer',
     company: 'International Finance Student Association (IFSA)',
-    period: 'Jun '25 – Jul '25',
+    period: "Jun '25 – Jul '25",
     bullets: [
       'Developed the official IFSA event website using WordPress, Divi Builder, HTML, CSS, and JavaScript from scratch.',
       'Integrated Google Sheets API for real-time event data synchronization and seamless cross-device compatibility.',
