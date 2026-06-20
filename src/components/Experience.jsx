@@ -6,8 +6,8 @@ import { motion } from 'framer-motion'
 const workExperience = [
   {
     role: 'Full Stack Developer',
-    company: 'Health Monk',
-    period: "Aug '25 – May '26",
+    company: 'HealthMonk – Waitlist',
+    period: "Mar '26 – May '26",
     bullets: [
       'Designed and customized a Shopify e-commerce website, built interactive frontend sections using reusable JavaScript blocks.',
       'Built an animated waiting list landing page using React.js and Three.js for immersive user onboarding experiences.',
