@@ -4,8 +4,8 @@ import { motion } from 'framer-motion'
 const iconMap = {
   "Languages": "💻",
   "Frameworks & Libraries": "⚙️",
-  "Tools & Platforms": "🛠️",
-  "Other Expertise": "✨"
+  "Tools": "🛠️",
+  "Core Concepts": "✨"
 }
 
 const SkillCategory = ({ category, skills, index }) => (
@@ -56,19 +56,19 @@ const SkillCategory = ({ category, skills, index }) => (
 const skillsData = [
   {
     category: "Languages",
-    skills: "HTML, CSS, JavaScript, TypeScript, React Native, Python, Java, C, PHP, SQL, MATLAB"
+    skills: "JavaScript, TypeScript, Python, Java, C, SQL, PHP, HTML, CSS, MATLAB, R"
   },
   {
     category: "Frameworks & Libraries",
-    skills: "React, Redux Toolkit, Next.js, Node.js, Express.js, Tailwind CSS, Bootstrap, Firebase"
+    skills: "React.js, Node.js, Express.js, Redux Toolkit, Tailwind CSS, Bootstrap, Firebase, Three.js, Three Fiber"
   },
   {
-    category: "Tools & Platforms",
-    skills: "Git, GitHub, WordPress, WooCommerce, ACF, Docker, Canva, Photoshop, Premiere Pro"
+    category: "Tools",
+    skills: "Git, WordPress, WooCommerce, Shopify, REST APIs, Sheets API, Resend API, LM Studio, Claude Code, Antigravity"
   },
   {
-    category: "Other Expertise",
-    skills: "DSA, REST APIs, Responsive Web Design, SEO Strategy, SMO, Digital Marketing"
+    category: "Core Concepts",
+    skills: "Data Structures & Algorithms, DBMS, OOP, Software Engineering, Machine Learning, Data Analytics, NLP, Statistical Analysis, Data Visualization, Supervised/Unsupervised Learning, LLM Integration"
   }
 ]
 
