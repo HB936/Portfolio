@@ -74,12 +74,6 @@ const projects = [
     tech: "Next.js · TypeScript · Tailwind",
   },
   {
-    title: "Blog Maker",
-    desc: "Full-stack blog editor with creation, editing, publishing, and auto-save drafts using debounce. Clean architecture implementation.",
-    link: "https://blog-maker-vercel.vercel.app",
-    tech: "Full-stack · Node.js · React · Debounce",
-  },
-  {
     title: "IShop E-Commerce",
     desc: "Full-stack e-commerce platform with complete frontend and backend integration via REST APIs.",
     tech: "Full-stack · REST APIs · Database",
@@ -89,23 +83,6 @@ const projects = [
     desc: "Custom shop page, AJAX-based add-to-cart with state management, wishlist integration, and Tailwind-styled cart functionality.",
     link: "https://ibb.co/album/dWFxrQ",
     tech: "WordPress · WooCommerce · AJAX · Tailwind",
-  },
-  {
-    title: "Crypto Price Tracker",
-    desc: "Real-time price tracking with simulated WebSocket updates, gainers/losers filters, unit tests, and localStorage state management via Redux.",
-    link: "https://crypto-price-tracker-topaz.vercel.app",
-    tech: "React · Redux Toolkit · TypeScript · Testing",
-  },
-  {
-    title: "Quiz Maker & Player",
-    desc: "Interactive web app for creating and playing custom quizzes with real-time scoring and user-friendly interface.",
-    link: "https://ibb.co/album/Rkd7ZT",
-    tech: "React · Tailwind · State Management",
-  },
-  {
-    title: "UI Component Library",
-    desc: "Reusable React components with Tailwind CSS and Storybook integration. Badge component completed, Accordion in development.",
-    tech: "React · Tailwind · Storybook · Design Systems",
   },
 ]
 

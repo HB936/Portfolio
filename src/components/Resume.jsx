@@ -85,7 +85,7 @@ export default function Resume() {
               </div>
 
               <a
-                href="/Resume.pdf"
+                href="/Resume_Hardik_Biyani.pdf"
                 download="Hardik_Biyani_Resume.pdf"
                 className="flex items-center justify-center gap-2 px-3 sm:px-6 py-2 text-xs sm:text-sm bg-gradient-to-r from-[#4FC3F7] to-[#81D4FA] hover:from-[#81D4FA] hover:to-[#4FC3F7] text-slate-950 font-bold rounded-lg transition-all duration-300 transform hover:scale-105"
               >
@@ -107,7 +107,7 @@ export default function Resume() {
                 </div>
               )}
               <Document
-                file="/Resume.pdf"
+                file="/Resume_Hardik_Biyani.pdf"
                 onLoadSuccess={onDocumentLoadSuccess}
                 loading={<span className="text-[#B0BEC5]">Loading...</span>}
                 error={<span className="text-red-400">Failed to load PDF. Please try downloading instead.</span>}
